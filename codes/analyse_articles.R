@@ -10,8 +10,8 @@ library(ggcharts)
 library(scales) 
 
 
-# Setting up R w/AWS - key is stored locally and not updated to git
-keyTable <- read.csv("C:/Users/T450s/Desktop/programming/git/ceu-cloud-bigdata-course/Serverless_Rmds/accessKeys.csv", header = T) # 
+# Setting up R w/AWS 
+keyTable <- read.csv("path to file", header = T) # 
 AWS_ACCESS_KEY_ID <- as.character(keyTable$Access.key.ID)
 AWS_SECRET_ACCESS_KEY <- as.character(keyTable$Secret.access.key)
 
